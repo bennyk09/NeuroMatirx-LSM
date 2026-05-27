@@ -1,6 +1,6 @@
 [project]
 name = "neuromatrix-lsm"
-version = "0.1.0"
+version = "0.1.1"
 description = "NeuroMatrix: A Lightweight Supervised Matrix model for adaptive prediction"
 readme = "README.md"
 requires-python = ">=3.9"
