@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuromatrix-lsm"
+version = "0.1.0"
+description = "NeuroMatrix: A Lightweight Supervised Matrix model for adaptive prediction"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Joseph Kothapalli" }
+]
+keywords = ["machine-learning", "prediction", "statistics", "matrix", "regression"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "numpy>=1.24"
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/neuromatrix-lsm"
+Repository = "https://github.com/YOUR_USERNAME/neuromatrix-lsm"
+Issues = "https://github.com/YOUR_USERNAME/neuromatrix-lsm/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
