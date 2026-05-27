@@ -1,7 +1,3 @@
-[build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "neuromatrix-lsm"
 version = "0.1.0"
@@ -16,7 +12,6 @@ authors = [
 keywords = ["machine-learning", "prediction", "statistics", "matrix", "regression"]
 classifiers = [
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent"
 ]
 dependencies = [
@@ -24,9 +19,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/neuromatrix-lsm"
-Repository = "https://github.com/YOUR_USERNAME/neuromatrix-lsm"
-Issues = "https://github.com/YOUR_USERNAME/neuromatrix-lsm/issues"
+Homepage = "https://github.com/bennyk09/NeuroMatirx-LSM"
+Repository = "https://github.com/bennyk09/NeuroMatirx-LSM"
+Issues = "https://github.com/bennyk09/NeuroMatirx-LSM/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
